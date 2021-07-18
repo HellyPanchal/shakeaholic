@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(233, 190, 176);
+}
+#about{
+    box-sizing: border-box;
+    border: 2px solid rgb(158, 43, 133);
+    background-color: rgb(211, 62, 141);
+    border-radius: 2rem;
+    font-family: cursive;
+}
+h1{
+    text-align: center;
+}
+p{
+    padding-left: 3px;
+}
+#special{
+    font-family: cursive;
+    text-align: center;
+    color: olive;
+}
+
+.shakes{
+    margin-left: 3%;
+    box-sizing: border-box;
+    height: 200px;
+    width: fit-content;
+}
+
+button{
+    margin-left: 43%;
+    margin-right: 40%;
+    padding: 10px;
+    font-family: cursive;
+    font-size: 30px ;
+    border: 7px solid rgb(218, 218, 99);
+    border-radius: 40%;
+    background-color: rgb(246, 246, 139);
+}
+
+button:hover{
+    background-color: yellowgreen;
+}
+
+button:active{
+    background-color: skyblue;
+    transform: translateY(5px);
+}
+
+#div2{
+    padding: 10px;
+    margin: 0px;
+    background-image: url(https://www.coldstonecreamery.com/assets/img/slides/slider-smoothies4.jpg);
+    text-align: center;
+    font-size: 1.5rem;
+    background-position: center;
+    width: 100%;
+}
+
+#body-2{
+    font-family: cursive;
+}
+h2{
+    text-align: center;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+}
